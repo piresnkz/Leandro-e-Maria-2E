@@ -1,4 +1,1 @@
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-}
+@import url(header.css);
