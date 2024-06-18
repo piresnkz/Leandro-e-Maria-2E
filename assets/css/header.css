@@ -1,6 +1,15 @@
+body{
+    background-color: #ebecee;
+}
 .cabecalho{
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.container{
+    margin: 0px 14px;
+    padding: 0.5em;
 }
 .menu-hamburger{
     width: 24px;
