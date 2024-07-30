@@ -1,16 +1,19 @@
 body{
     background-color: var(--cor-de-fundo);
 }
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
     background-color: var(--branco);
     align-items: center;
 }
+
 .container{
     margin: 0px 14px;
     padding: 0.5em;
 }
+
 .menu-hamburger{
     width: 24px;
     height: 24px;
@@ -19,19 +22,27 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .menu-lista{
     display: none;
     position: absolute;
     width: 60vw;
 
 }
+
 .lista-titulo{
     background-color: var(--branco);
     color: var(--laranja);
 }
+
 .menu-checkbox:checked ~ .menu-lista{
     display: block;
 }
+
+.menu-checkbox{
+    display: none;
+}
+
 .lista-item{
     padding: 1em;
     background-color:white;
