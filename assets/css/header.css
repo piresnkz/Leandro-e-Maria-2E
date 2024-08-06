@@ -49,3 +49,13 @@ body{
     color: orange;
 }
 
+.banner-pesquisa{
+    border: 1px solid white;
+    background-color: transparent;
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    background: url(../img/AluraBooks/Pesquisa.svg) no-repeat; 
+    background-position: 1em;
+}
