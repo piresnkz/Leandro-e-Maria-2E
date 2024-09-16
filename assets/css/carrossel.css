@@ -49,10 +49,20 @@
 
 .botao-ancora{
     background-color: var(--laranja);
-    border-radius: 15px;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 20px;
     
 }
 
 .botoes{
     display: flex;
+}
+
+.descricao-titulo-livro{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0s;
+
 }
